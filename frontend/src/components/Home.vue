@@ -1,10 +1,22 @@
 
 <template>
-  <div>
-    <p>Home page</p>
-    <p>Random number from backend: {{ randomNumber }}</p>
-    <button @click="getRandom">New random number</button>
-  </div>
+<div class="container">
+	<header>
+		<div  class="row pt-1 align-items-center">
+			<div id="div-logo" class="col-3 col-md-5">
+				<img src="../assets/appdvice-logo.png">
+			</div>
+			<div id="div-titulo" class="col align-middle">
+				<h1 class="">Appdvice</h1>
+			</div>
+		</div>
+	</header>
+	<div class="row mt-4">
+		<div class="col">
+			<h2 class="h1">Make your decision as if you were...</h2>
+		</div>
+	</div>
+</div>
 </template>
 
 <script>
